@@ -5,7 +5,21 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-05-08T22:51:43Z</updated>
+  <updated>2018-05-09T11:27:00Z</updated>
+  <entry>
+    <title>Spring Boot 1.5.13</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/05/09/spring-boot-1-5-13" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-05-09:3271</id>
+    <updated>2018-05-09T11:27:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and community, I am pleased to announce that Spring Boot 1.5.13 has been released and is is now available from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Boot 1.5.13 includes &lt;a href="https://github.com/spring-projects/spring-boot/milestone/110?closed=1"&gt;over 20 fixes, improvements and dependency updates&lt;/a&gt;. Thanks to all that have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.13.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Security OAuth 2.3.3, 2.2.2, 2.1.2, 2.0.15 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2018/05/08/spring-security-oauth-2-3-3-2-2-2-2-1-2-2-0-15-released" />
@@ -1157,85 +1171,5 @@ public class NightAngel {&#xD;
   &lt;li&gt;Wijnand Top has an interesting post on how to use &lt;a href="https://medium.com/@wijnandtop/gitlabs-auto-devops-java-spring-boot-with-quality-control-to-production-in-minutes-using-7afdbc859b9a?source=userActivityShare-a17df5ec14a4-1523428894"&gt;GitLab’s Auto DevOps for a Spring Boot application&lt;/a&gt;. Auto DevOps, as I understand it, is basically a made-to-order continuous delivery platform. This is cool!&lt;/li&gt;
   &lt;li&gt;Jonatan Reiners has a nice post on &lt;a href="https://kreuzwerker.de/blog/posts/keyvault-with-spring"&gt;using the Azure KeyVault as a property source in Spring Boot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Integration for AWS 2.0.0.M2 and Spring Cloud Stream Kinesis Binder 1.0.0.M2</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/04/17/spring-integration-for-aws-2-0-0-m2-and-spring-cloud-stream-kinesis-binder-1-0-0-m2" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2018-04-16:3253</id>
-    <updated>2018-04-17T12:21:29Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;Dear Spring Community!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;It’s my pleasure to announce Milestone releases for Spring projects supporting &lt;a href="https://aws.amazon.com/"&gt;Amazon Web Services&lt;/a&gt;: &lt;a href="https://github.com/spring-projects/spring-integration-aws"&gt;Spring Integration for AWS&lt;/a&gt; &lt;code&gt;2.0.0.M2&lt;/code&gt; and &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-binder-aws-kinesis"&gt;Spring Cloud Stream Binder for AWS Kinesis&lt;/a&gt; &lt;code&gt;1.0.0.M2&lt;/code&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Both milestones are available in the &lt;a href="https://repo.spring.io/milestone/"&gt;Spring Milestone&lt;/a&gt; repository and they can be consumed as maven dependencies:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml" data-lang="xml"&gt;&amp;lt;dependency&amp;gt;
-    &amp;lt;groupId&amp;gt;org.springframework.integration&amp;lt;/groupId&amp;gt;
-    &amp;lt;artifactId&amp;gt;spring-integration-aws&amp;lt;/artifactId&amp;gt;
-    &amp;lt;version&amp;gt;2.0.0.M2&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-
-&amp;lt;dependency&amp;gt;
-    &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;
-    &amp;lt;artifactId&amp;gt;spring-cloud-stream-binder-kinesis&amp;lt;/artifactId&amp;gt;
-    &amp;lt;version&amp;gt;1.0.0.M2&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Where the first one is not needed to be includes when the second one is in use.
-The &lt;a href="https://aws.amazon.com/kinesis/"&gt;AWS Kinesis&lt;/a&gt; and &lt;a href="https://aws.amazon.com/dynamodb/"&gt;AWS DynamoDB&lt;/a&gt; Java SDK dependencies are included transitively for AWS Kinesis Binder as well.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;These Milestones are good effort of the team and some third-party contributors after valuable feedback from the community via StackOverflow questions, Gitter chats, bug reports and feature request.
-So, thank you everyone involved!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Here are changes since the previously announced &lt;a href="https://spring.io/blog/2018/02/13/spring-integration-for-aws-2-0-0-m1-and-spring-cloud-stream-kinesis-binder-1-0-0-m1"&gt;Milestone 1&lt;/a&gt;:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The &lt;code&gt;KinesisMessageDrivenChannelAdapter&lt;/code&gt; has been improved for fault tolerance when intermittent network errors happen in the AWS Client.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Kinesis &lt;code&gt;Checkpointer&lt;/code&gt; has been improved to be based on the &lt;code&gt;ConcurrentMetadataStore&lt;/code&gt; for better concurrent interactions, especially in cluster environment - consumer groups.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A headers mapping mechanism has been implemented for the &lt;code&gt;SqsMessageHandler&lt;/code&gt; and &lt;code&gt;SnsMessageHandler&lt;/code&gt; - the &lt;code&gt;SqsHeaderMapper&lt;/code&gt; and &lt;code&gt;SnsHeaderMapper&lt;/code&gt; as out-of-the-box implementations, respectively.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Since AWS Kinesis doesn&amp;#8217;t provide any headers notations, we implemented workaround via &lt;em&gt;embedding headers&lt;/em&gt; into the Kinesis &lt;code&gt;Record&lt;/code&gt; body.
-For this purpose the &lt;code&gt;KinesisMessageHandler&lt;/code&gt; and &lt;code&gt;KinesisMessageDrivenChannelAdapter&lt;/code&gt; should be configured with the &lt;code&gt;OutboundMessageMapper&lt;/code&gt; and &lt;code&gt;InboundMessageMapper&lt;/code&gt;, respectively.
-As a good choice an out-of-the-box Spring Integration &lt;code&gt;EmbeddedJsonHeadersMessageMapper&lt;/code&gt; can be used on both side to carry any desired message headers over AWS Kinesis.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The &lt;code&gt;KinesisMessageDrivenChannelAdapter&lt;/code&gt; has also been supplied with the logic to convert records when &lt;code&gt;ListenerMode.batch&lt;/code&gt; is used.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The &lt;code&gt;KinesisMessageChannelBinder&lt;/code&gt; has been updated according the latest changes and fixes in the Spring Cloud Stream and Spring Integration AWS.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Also a new &lt;code&gt;rawRecords&lt;/code&gt; listener mode has been introduced.
-By default the Kinesis Binder is configured for &lt;code&gt;record&lt;/code&gt; mode where the message to emit contains payload as &lt;code&gt;byte[]&lt;/code&gt; for the downstream conversion by the &lt;a href="https://spring.io/blog/2018/02/26/spring-cloud-stream-2-0-content-type-negotiation-and-transformation"&gt;Spring Cloud Stream&lt;/a&gt;.
-The &lt;code&gt;batch&lt;/code&gt; mode now produces a &lt;code&gt;List&amp;lt;byte[]&amp;gt;&lt;/code&gt; and this new &lt;code&gt;rawRecords&lt;/code&gt; mode produces a message with a payload as &lt;code&gt;List&amp;lt;Record&amp;gt;&lt;/code&gt; - and all the conversion logic to business model is up to end-user in the target &lt;code&gt;@StreamListener&lt;/code&gt; method.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;As usual any feedback, feature ideas, critics, bug reports and questions are welcome via appropriate communication channels!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-gcp"&gt;Spring Integration AWS Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-binder-aws-kinesis"&gt;Spring Cloud Stream Binder for AWS Kinesis Project Page&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-integration"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-cloud/spring-cloud-stream"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
